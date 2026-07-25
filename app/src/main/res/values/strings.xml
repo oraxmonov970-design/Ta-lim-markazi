@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ta\'lim Markazi</string>
+
+    <!-- Auth -->
+    <string name="login_title">Kirish</string>
+    <string name="register_title">Ro\'yxatdan o\'tish</string>
+    <string name="full_name">Ism va familiya</string>
+    <string name="username">Login</string>
+    <string name="password">Parol</string>
+    <string name="role_teacher">O\'qituvchi</string>
+    <string name="role_student">O\'quvchi</string>
+    <string name="btn_login">Kirish</string>
+    <string name="btn_register">Ro\'yxatdan o\'tish</string>
+    <string name="no_account">Hisobingiz yo\'qmi? Ro\'yxatdan o\'ting</string>
+    <string name="have_account">Hisobingiz bormi? Kirish</string>
+    <string name="select_role">Rolni tanlang</string>
+
+    <!-- Main -->
+    <string name="nav_subjects">Fanlar</string>
+    <string name="nav_progress">Natijalar</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_upload">Yuklash</string>
+
+    <!-- Subject / Topic -->
+    <string name="subjects_title">Fanlar</string>
+    <string name="topics_title">Mavzular</string>
+    <string name="add_topic">Mavzu qo\'shish</string>
+    <string name="topic_name">Mavzu nomi</string>
+    <string name="topic_description">Mavzu tavsifi</string>
+
+    <!-- Tabs -->
+    <string name="tab_book">Kitob</string>
+    <string name="tab_test">Test</string>
+    <string name="tab_media">Video/Audio</string>
+
+    <!-- Book -->
+    <string name="add_book">Kitob yuklash</string>
+    <string name="book_title_hint">Kitob nomi</string>
+    <string name="choose_file">Faylni tanlash</string>
+    <string name="no_books">Hozircha kitoblar yuklanmagan</string>
+
+    <!-- Test -->
+    <string name="add_question">Savol qo\'shish</string>
+    <string name="question_text">Savol matni</string>
+    <string name="option_a">Javob A</string>
+    <string name="option_b">Javob B</string>
+    <string name="option_c">Javob C</string>
+    <string name="option_d">Javob D</string>
+    <string name="correct_answer">To\'g\'ri javob</string>
+    <string name="start_test">Testni boshlash</string>
+    <string name="no_questions">Hozircha savollar qo\'shilmagan</string>
+    <string name="next_question">Keyingisi</string>
+    <string name="finish_test">Testni yakunlash</string>
+    <string name="test_result">Test natijasi</string>
+    <string name="retake_test">Qayta topshirish</string>
+
+    <!-- Media -->
+    <string name="add_media">Video/Audio qo\'shish</string>
+    <string name="media_title_hint">Nomi</string>
+    <string name="media_type">Turi</string>
+    <string name="type_video">Video</string>
+    <string name="type_audio">Audio</string>
+    <string name="no_media">Hozircha video/audio yuklanmagan</string>
+
+    <!-- Progress -->
+    <string name="overall_progress">Umumiy progress</string>
+    <string name="completed_topics">Tugatilgan mavzular</string>
+
+    <!-- Profile -->
+    <string name="logout">Chiqish</string>
+
+    <!-- Common -->
+    <string name="save">Saqlash</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="delete">O\'chirish</string>
+    <string name="loading">Yuklanmoqda...</string>
+    <string name="error_empty_field">Bu maydonni to\'ldiring</string>
+</resources>

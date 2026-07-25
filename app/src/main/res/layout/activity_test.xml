@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        android:titleTextColor="@color/white" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_margin="16dp"
+        android:progressDrawable="@drawable/bg_progress_bar" />
+
+    <TextView
+        android:id="@+id/tvQuestionNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        tools:text="Savol 1 / 10"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <TextView
+        android:id="@+id/tvQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/text_primary"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        tools:text="2/3 + 1/4 nechiga teng?"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbOptA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            tools:text="A) 11/12"
+            xmlns:tools="http://schemas.android.com/tools" />
+
+        <RadioButton
+            android:id="@+id/rbOptB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            tools:text="B) 3/7"
+            xmlns:tools="http://schemas.android.com/tools" />
+
+        <RadioButton
+            android:id="@+id/rbOptC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            tools:text="C) 1"
+            xmlns:tools="http://schemas.android.com/tools" />
+
+        <RadioButton
+            android:id="@+id/rbOptD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            tools:text="D) 5/6"
+            xmlns:tools="http://schemas.android.com/tools" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_button_primary"
+        android:text="@string/next_question"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>
