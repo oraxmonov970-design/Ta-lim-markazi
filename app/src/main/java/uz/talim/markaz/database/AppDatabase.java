@@ -68,7 +68,7 @@ public abstract class AppDatabase extends RoomDatabase {
 
     private static final RoomDatabase.Callback roomCallback = new RoomDatabase.Callback() {
         @Override
-        public void onCreate(androidx.annotation.NonNull SupportSQLiteDatabase db) {
+        public void onCreate(@androidx.annotation.NonNull SupportSQLiteDatabase db) {
             super.onCreate(db);
             databaseWriteExecutor.execute(() -> {
                 SubjectDao dao = INSTANCE.subjectDao();
