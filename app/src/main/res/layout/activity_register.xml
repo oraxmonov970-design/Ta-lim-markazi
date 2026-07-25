@@ -41,7 +41,6 @@
                 android:layout_marginEnd="6dp"
                 android:background="@drawable/bg_role_selector"
                 android:gravity="center"
-                android:selected="true"
                 android:text="@string/role_student"
                 android:textColor="@color/text_primary" />
 

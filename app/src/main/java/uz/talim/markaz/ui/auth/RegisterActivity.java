@@ -39,6 +39,8 @@ public class RegisterActivity extends AppCompatActivity {
         btnRoleStudent = findViewById(R.id.btnRoleStudent);
         btnRoleTeacher = findViewById(R.id.btnRoleTeacher);
 
+        selectRole(SessionManager.ROLE_STUDENT);
+
         btnRoleStudent.setOnClickListener(v -> selectRole(SessionManager.ROLE_STUDENT));
         btnRoleTeacher.setOnClickListener(v -> selectRole(SessionManager.ROLE_TEACHER));
 
